@@ -1,0 +1,221 @@
+ /* Efeitos Globais */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-parallax1,
+.container-parallax2,
+.container-parallax3 {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Topo da página */
+.topo {
+    width: 100%;
+    position: fixed;
+   /* background-color: #604829;*/
+    z-index: 1;
+
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.topo div {
+    position: absolute;
+    top: 80%;
+    left: 50px;
+    right: 50px;
+}
+
+.topo div a {
+    margin-right: 20px;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 3px 5px 2px #000000;
+    letter-spacing: 2px;
+    color: #c4a47c;
+}
+
+/* Container Parallax
+/* Container Parallax 1 */
+.container-parallax1 {
+    background-image: url("../assets/Saco_de_Dinheiro.jpg");
+    height: 100vh;
+}
+
+/* Container Parallax 2 */
+.container-parallax2 {
+    background-image: url("../assets/bolas-de-loteria.webp");
+    height: 50vh;
+}
+
+/* Container Parallax 3 */
+.container-parallax3 {
+    height: 85vh;
+    background-image: url("../assets/fundo-de-trevos.jpg");
+}
+
+
+.container-parallax1 h1,
+.container-parallax2 h3,
+.container-parallax3 h2 {
+    width: 500px;
+    padding: 10px;
+
+    position: relative;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin: auto;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Fraunces", sans-serif;
+    text-align: center;
+
+    letter-spacing: 2px;
+    background-color: #604829;
+    color: #fff;
+}
+
+.container-parallax1 h1 {
+    top: 25%;
+} 
+
+.container-parallax2 h3,
+.container-parallax3 h2 {
+    top: 10%;
+}
+
+.container-mega-sena {
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    bottom: 60%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #fff;
+}
+
+.container-mega-sena p {
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+}
+
+/* Efeitos aplicados a classe container-texto */
+
+.container-texto {
+    top: 60%;
+    padding: 80px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #666;
+}
+
+.lista-numeros { /* tag <ul> */
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 40%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+.lista-numeros li { /* tag <li> */
+    position: relative;
+}
+
+.lista-numeros li h3 { /* subtitulo = <h3> */
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.lista-numeros li div { /* tarja = <div> */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.lista-numeros li p,
+.texto-branco { /* paragrafo + span*/
+    position: absolute;
+    top: 0;
+    right: 80px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.tabela {
+    width: 100%;
+    font-family: "Fraunces", sans-serif;
+    font-weight: bold;
+    color: #000000;
+}
+
+.texto-branco {
+    color: #fff;
+}
+/*
+.lista-numeros li p {
+    color: #ACACAC;
+}8?
+
+/* Rodapé */
+.container-rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+}
+
+.container-rodape span {
+    color: #c4a47c;
+}
+
+.container-rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+
+    background-image: url("../assets/seta-para-cima.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #c4a47c;
+    border-radius: 4px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palpiteiro</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    
+    <script>
+        //alert("Olá, seja bem vindo ao Palpiteiro!");
+
+        function palpite ()
+        {
+            do {
+                var numero_sorteado = Math.floor(Math.random() * 61);
+            } while ((numero_sorteado === 0) || (numero_sorteado > 60)); 
+            return (numero_sorteado);
+        }
+        document.write (palpite());
+        Repeat
+    </script>
+</head>
+
+<body>
+    <div class="topo"> <!-- Rodapé da página -->
+        <h1>Palpiteiro</h1>
+        <p><span>Dicas de Loterias</span></p>
+        <div>
+            <a href="#banner">Banner</a>
+            <a href="#probabilidade">Probablilidade</a>
+            <a href="#numeros">Numeros</a>
+            <a href="#rodape">Rodapé</a>
+            </div>
+        </div>  
+    </div>
+    <div id="banner" class="container-parallax1">
+       <h1>Mega-Sena</h1>
+       <p class="container-mega-sena container-mega-sena p">A probabilidade de ganhar na Mega-Sena varia de acordo com o número de dezenas jogadas e do tipo de aposta realizada, segundo a Caixa Econômica Federal. Com a aposta mínima, com seis dezenas ao custo de R$ 4,50, a chance é de uma em 50 milhões.<p>
+    </div>
+
+    <div id="probabilidade" class="container-parallax2">
+        <h3>Dicas de Loterias</h3>
+        <table class="container-texto tabela">
+            <thead>
+                <tr>
+                    <th>Números jogados</th>
+                    <th>Gastos em R$</th>
+                    <th>Probabilidade de acerto na sena</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>6</td>
+                    <td>4,50</td>
+                    <td>1 em 50.063.860</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>31,50</td>
+                    <td>1 em 7.151.980</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>126</td>
+                    <td>1 em 1.787.995</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>378</td>
+                    <td>1 em 595.998</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+       
+    <div id="numeros" class="container-parallax3"> <!-- Seção Números - Lista da página -->
+    <h2>NÚMEROS DA SORTE</h2>
+    <div>
+      <ul class="lista-numeros">
+        <li>
+            <h3>Número 1:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                   document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 2:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 3:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 4:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 5:</h3>
+            <div></div>
+                <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 6:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 7:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 8:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+        <li>
+            <h3>Número 9:</h3>
+            <div></div>
+            <span class="texto-branco">
+                <script>
+                    document.write (palpite());
+                </script>
+            </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+      
+  
+  <div id="rodape" class="container-rodape"> <!-- Rodapé da página -->
+    <p>&copy; Palpiteiro - Atualize a Página para mais dicas - Todos os direitos reservados</p>
+    <p>Desenvolvido por <span>"Isaias - ihbrazil"</span></p>
+    <a href="#banner"></a>
+  </div>    
+</body>
+</html>
