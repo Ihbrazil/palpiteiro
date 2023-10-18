@@ -96,8 +96,11 @@
     top: 25%;
 } 
 
-.container-parallax2 h3,
 .container-parallax3 h2 {
+    top: 20%;
+}
+
+.container-parallax2 h3 {
     top: 10%;
 }
 
@@ -142,6 +145,7 @@
     left: 0;
     font-family: "Oswald", sans-serif;
     list-style: none;
+    display: flex;
 }
 
 .lista-numeros li { /* tag <li> */
@@ -184,31 +188,15 @@
     height: 50px;
     position: relative;
     margin: 0 auto;
-    top: 3vh;
-    right: -45%;
-}
-
-.bola_2 {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    margin: 0 auto;
-    top: 3vh;
-    right: -55%;
+    bottom: 40vh;
+    left: 0%;
 }
 
 .dezenas {
     position: absolute;
     color: #000000;
-    top: -0.5vh;
-    right: 50%;
-}
-
-.dezenas_2 {
-    position: absolute;
-    color: #000000;
-    top: -0.5vh;
-    right: 32vh;
+    bottom: 42vh;
+    right: 30px;
 }
 
 /* Rodapé */
