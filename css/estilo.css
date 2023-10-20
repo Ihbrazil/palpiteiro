@@ -216,10 +216,15 @@
     color: #c4a47c;
 }
 
+.novasdicas {
+    position: absolute;
+    width: 100%;
+}
+
 .botao {
-    position: relative;
-    top: 45vh;
-    right: -32%;
+    position: absolute;
+    top: -30vh;
+    right: 30%;
     font-size: 18px;
     font-weight: 600;
     background-color: aqua;
