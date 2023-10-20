@@ -216,6 +216,19 @@
     color: #c4a47c;
 }
 
+.botao {
+    position: relative;
+    top: 45vh;
+    right: -32%;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: aqua;
+    border-radius: 20px;
+    border: 0;
+    padding: 10px 60px;
+    cursor: pointer;
+}
+
 .container-rodape a {
     display: inline-block;
     width: 60px;

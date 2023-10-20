@@ -5,3 +5,8 @@ function palpite ()
             } while ((numero_sorteado === 0) || (numero_sorteado > 60)); 
             return (numero_sorteado);
         }
+
+function atualizarPagina()
+        {
+            window.location.reload(); 
+        }
