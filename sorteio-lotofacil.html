@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LotoFácil</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilo_sorteio.css"/>
+</head>
+<body>
+    <header>
+        <div class="topo"> <!-- Rodapé da página -->
+            <h1>Sorteio LotoFácil</h1>
+            <p><span>Dicas de Loterias</span></p>
+            <div>
+                <a href="#banner">Banner</a>
+                <a href="#numeros">Numeros</a>
+                <a href="#rodape">Rodapé</a>
+                <a href="index.html"> Palpiteiro</a>
+            </div>  
+        </div>
+    </header>
+    <section>
+        <div id="banner" class="container-parallax-sorteio">
+            <h1>Lotofácil</h1>
+            <p>A Lotofácil é uma loteria realizada pela Caixa Econômica Federal, que sorteia 15 números de 25 possíveis. Para ganhar o prêmio principal, você precisa acertar os 15 números sorteados. Mas você também pode ganhar algum prêmio se acertar 11, 12, 13 ou 14 números.<br>
+            Segundo cálculos matemáticos, a probabilidade de ganhar na Lotofácil com uma aposta simples de 15 números é de uma em 3.268.7601. Isso significa que você tem 0,00003% de chance de acertar os 15 números.<br>
+            Mas você pode aumentar as suas chances de ganhar se apostar em mais números. A Lotofácil permite que você aposte até 20 números por volante, mas o preço da aposta aumenta conforme o número de dezenas escolhidas.<br>
+            você pode ver, a probabilidade de ganhar na Lotofácil com uma aposta de 20 números é de uma em 211. Isso significa que você tem cerca de 0,474% de chance de acertar os 15 números.
+            Mas lembre-se que a Lotofácil é um jogo de sorte e não há garantia de vitória. Por isso, jogue com responsabilidade e moderação.</p>
+        </div>  
+    <section>
+        <script src="./javascript/palpiteiro.js"></script>
+        <div id="numeros" class="container-sorteio">
+                <div class="card-sorteio card-um">
+                    <h2>Número Um</h2>
+                    <span id="numeroUm" class="dezena"></span>
+                    <button type="button" onclick="palpiteUmLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Dois</h2>
+                    <span id="numeroDois" class="dezena"></span>
+                    <button type="button" onclick="palpiteDoisLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Três</h2>
+                    <span id="numeroTres" class="dezena"></span>
+                    <button type="button" onclick="palpiteTresLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-um">
+                    <h2>Número Quatro</h2>
+                    <span id="numeroQuatro" class="dezena"></span>
+                    <button type="button" onclick="palpiteQuatroLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Cinco</h2>
+                    <span id="numeroCinco" class="dezena"></span>
+                    <button type="button" onclick="palpiteCincoLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Seis</h2>
+                    <span id="numeroSeis" class="dezena"></span>
+                    <button type="button" onclick="palpiteSeisLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-um">
+                    <h2>Número Sete</h2>
+                    <span id="numeroSete" class="dezena"></span>
+                    <button type="button" onclick="palpiteSeteLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Oito</h2>
+                    <span id="numeroOito" class="dezena"></span>
+                    <button type="button" onclick="palpiteOitoLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Nove</h2>
+                    <span id="numeroNove" class="dezena"></span>
+                    <button type="button" onclick="palpiteNoveLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-um">
+                    <h2>Número Dez</h2>
+                    <span id="numeroDez" class="dezena"></span>
+                    <button type="button" onclick="palpiteDezLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Onze</h2>
+                    <span id="numeroOnze" class="dezena"></span>
+                    <button type="button" onclick="palpiteOnzeLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Doze</h2>
+                    <span id="numeroDoze" class="dezena"></span>
+                    <button type="button" onclick="palpiteDozeLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-um">
+                    <h2>Número Treze</h2>
+                    <span id="numeroTreze" class="dezena"></span>
+                    <button type="button" onclick="palpiteTrezeLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Quatorze</h2>
+                    <span id="numeroQuatorze" class="dezena"></span>
+                    <button type="button" onclick="palpiteQuatorzeLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Quinze</h2>
+                    <span id="numeroQuinze" class="dezena"></span>
+                    <button type="button" onclick="palpiteQuinzeLotoFacil()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-todos">
+                    <h2>Nova Sequencia</h2>
+                    <button type="button" onclick="palpiteInicialLotoFacil()">Nova Sorte</button>
+                </div>
+                <script>palpiteInicialLotoFacil();</script>
+        </div>
+    </section>    
+    <section>
+        <div id="banner" class="container-parallax-sorteio">
+            <h1>Lotofácil</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Números jogados</th>
+                        <th>Gastos em R$</th>
+                        <th>Probabilidade de acerto na sena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>15</td>
+                        <td>3,00</td>
+                        <td>1 em 3.268.760</td>
+                    </tr>
+                    <tr>
+                        <td>16</td>
+                        <td>48,00</td>
+                        <td>1 em 204.298</td>
+                    </tr>
+                    <tr>
+                        <td>17</td>
+                        <td>408</td>
+                        <td>1 em 24.035</td>
+                    </tr>
+                    <tr>
+                        <td>18</td>
+                        <td>2.448,00</td>
+                        <td>1 em 4.006</td>
+                    </tr>
+                    <tr>
+                        <td>19</td>
+                        <td>11.628,00</td>
+                        <td>1 em 843</td>
+                    </tr>
+                    <tr>
+                        <td>20</td>
+                        <td>46.512,00</td>
+                        <td>1 em 211</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div id="rodape" class="container-rodape"> <!-- Rodapé da página -->
+            <p>&copy; Palpiteiro - Todos os direitos reservados</p>
+            <p>Desenvolvido por <span>"Isaias - ihbrazil"</span></p>
+            <a href="#banner"></a>
+        </div>
+    </footer>    
+</body>
+</html>

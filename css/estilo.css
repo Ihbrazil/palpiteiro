@@ -1,4 +1,4 @@
- /* Efeitos Globais */
+/* Efeitos Globais */
  * {
     margin: 0;
     padding: 0;
@@ -18,16 +18,14 @@
 .topo {
     width: 100%;
     position: fixed;
-   /* background-color: #604829;*/
     z-index: 1;
-
     padding: 20px 0;
     line-height: 34px;
     letter-spacing: 2px;
     font-weight: 600;
     font-family: "Lato", sans-serif;
     text-align: center;
-    background-color: #000000;
+    background-color: #1f4037;
     color: #fff;
 }
 
@@ -59,15 +57,14 @@
 /* Container Parallax 2 */
 .container-parallax2 {
     background-image: url("../assets/bolas-de-loteria.webp");
-    height: 50vh;
+    height: 60vh;
 }
 
 /* Container Parallax 3 */
 .container-parallax3 {
-    height: 85vh;
+    height: 65vh;
     background-image: url("../assets/fundo-de-trevos.jpg");
 }
-
 
 .container-parallax1 h1,
 .container-parallax2 h3,
@@ -93,29 +90,26 @@
 }
 
 .container-parallax1 h1 {
-    top: 25%;
+    top: 28%;
 } 
 
-.container-parallax3 h2 {
-    top: 20%;
-}
-
 .container-parallax2 h3 {
-    top: 10%;
+    top: 5%;
 }
 
-.container-mega-sena {
+.container-parallax3 h2 {
+    top: 5%;
+}
+
+.container-parallax1 p {
     width: 500px;
     padding: 10px;
     position: absolute;
-    bottom: 60%;
+    top: 34%;
     right: 0;
     left: 0;
     margin: auto;
-    background-color: #fff;
-}
-
-.container-mega-sena p {
+    background-color: #000000;
     color: #fff;
     font-family: "Oswald", sans-serif;
     line-height: 36px;
@@ -123,81 +117,76 @@
     text-align: center;
 }
 
+.container-parallax1 ul {
+    list-style: none;
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 42%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: #000000;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
+    text-align: center;
+    opacity: 70%;
+}
+
 /* Efeitos aplicados a classe container-texto */
 
-.container-texto {
-    top: 60%;
-    padding: 80px 0px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 34px;
-    letter-spacing: 1px;
+.container-parallax2 table {
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 15%;
+    right: 0;
+    left: 0;
+    margin: auto;
+    background-color: oldlace;
+    color: #000000;
+    font-family: "Oswald", sans-serif;
+    line-height: 36px;
+    text-shadow: 0px 6px 8px #000000;
     text-align: center;
-    color: #666;
 }
 
-.lista-numeros { /* tag <ul> */
-    max-width: 768px;
-    position: absolute;
+/*FlexBox*/
+
+.container {
+    max-width: 1024px;
     margin: 0 auto;
-    bottom: 5%;
-    right: 0;
-    left: 0;
-    font-family: "Oswald", sans-serif;
-    list-style: none;
+    padding: 40px 0px;
+    background-color: #000000;
+    border-radius: 8px;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.lista-numeros li { /* tag <li> */
-    position: relative;
+.card {
+    width: 280px;
+    background-color: yellow;
+    border-radius: 4px;
 }
 
-.lista-numeros li h3 { /* subtitulo = <h3> */
-    margin-bottom: 5px;
-    color: #fff;
-}
-
-.lista-numeros li div { /* tarja = <div> */
-    width: 70%;
-    height: 1px;
-    position: absolute;
-    margin: 0 auto;
-    top: 50%;
-    right: 0;
-    left: 0;
-    background-color: #fff;
-}
-
-.lista-numeros li p,
-.texto-branco { /* paragrafo + span*/
-    position: absolute;
-    top: 0;
-    font-weight: 700;
-    font-family: "Oswald", sans-serif;
-}
-
-.tabela {
+.container-imagem img {
     width: 100%;
-    font-family: "Fraunces", sans-serif;
-    font-weight: bold;
-    color: #000000;
+    border-radius: 4px 4px 0px 0px;
 }
 
-.bola {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    margin: 0 auto;
-    bottom: 40vh;
-    left: 0%;
+.container-info {
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-
-.dezenas {
-    position: absolute;
-    color: #000000;
-    bottom: 42vh;
-    right: 30px;
-}
+/*FlexBox*/
 
 /* Rodapé */
 .container-rodape {
@@ -208,30 +197,12 @@
     font-weight: 600;
     font-family: "Lato", sans-serif;
     text-align: center;
-    background-color: #000000;
+    background-color: #1f4037;
     color: #fff;
 }
 
 .container-rodape span {
     color: #c4a47c;
-}
-
-.novasdicas {
-    position: absolute;
-    width: 100%;
-}
-
-.botao {
-    position: absolute;
-    top: -30vh;
-    right: 30%;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: aqua;
-    border-radius: 20px;
-    border: 0;
-    padding: 10px 60px;
-    cursor: pointer;
 }
 
 .container-rodape a {

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quina</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilo_sorteio.css"/>
+</head>
+<body>
+    <header>
+        <div class="topo"> <!-- Rodapé da página -->
+            <h1>Sorteio Quina</h1>
+            <p><span>Dicas de Loterias</span></p>
+            <div>
+                <a href="#banner">Banner</a>
+                <a href="#numeros">Numeros</a>
+                <a href="#rodape">Rodapé</a>
+                <a href="index.html"> Palpiteiro</a>
+            </div>  
+        </div>
+    </header>
+    <section>
+        <div id="banner" class="container-parallax-sorteio">
+            <h1>Quina</h1>
+            <p>A quina é uma loteria realizada pela Caixa Econômica Federal, que sorteia cinco números de 80 possíveis. Para ganhar o prêmio principal, você precisa acertar os cinco números sorteados. Mas você também pode ganhar algum prêmio se acertar dois, três ou quatro números.
+            Segundo cálculos matemáticos, a probabilidade de ganhar na quina com uma aposta simples de cinco números é de uma em 24.040.0161. Isso significa que você tem 0,000004% de chance de acertar os cinco números.
+            </p>
+        </div>
+    </section>
+    <section>  
+        <script src="./javascript/palpiteiro.js"></script>
+        <div id="numeros" class="container-sorteio">
+                <div class="card-sorteio card-um">
+                    <h2>Número Um</h2>
+                    <span id="numeroUm" class="dezena"></span>
+                    <button type="button" onclick="palpiteUmQuina()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Dois</h2>
+                    <span id="numeroDois" class="dezena"></span>
+                    <button type="button" onclick="palpiteDoisQuina()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Três</h2>
+                    <span id="numeroTres" class="dezena"></span>
+                    <button type="button" onclick="palpiteTresQuina()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-um">
+                    <h2>Número Quatro</h2>
+                    <span id="numeroQuatro" class="dezena"></span>
+                    <button type="button" onclick="palpiteQuatroQuina()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Cinco</h2>
+                    <span id="numeroCinco" class="dezena"></span>
+                    <button type="button" onclick="palpiteCincoQuina()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-todos">
+                    <h2>Nova Sequencia</h2>
+                    <button type="button" onclick="palpiteInicialQuina()">Nova Sorte</button>
+                </div>
+                <script>palpiteInicialQuina();</script>
+        </div>
+    </section>
+    <section>
+        <div id="banner" class="container-parallax-sorteio">
+            <h1>Quina</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Números jogados</th>
+                        <th>Gastos em R$</th>
+                        <th>Probabilidade de acerto na sena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>5</td>
+                        <td>2,50</td>
+                        <td>1 em 24.040.016</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>15,00</td>
+                        <td>1 em 4.006.669</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>52,50</td>
+                        <td>1 em 1.144.763</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>140</td>
+                        <td>1 em 429.286</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>315</td>
+                        <td>1 em 190.794</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div id="rodape" class="container-rodape"> <!-- Rodapé da página -->
+            <p>&copy; Palpiteiro - Todos os direitos reservados</p>
+            <p>Desenvolvido por <span>"Isaias - ihbrazil"</span></p>
+            <a href="#banner"></a>
+        </div>
+    </footer>    
+</body>
+</html>

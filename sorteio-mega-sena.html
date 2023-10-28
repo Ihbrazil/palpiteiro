@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega-Sena</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilo_sorteio.css"/>
+</head>
+<body>
+    <header>
+        <div class="topo"> <!-- Rodapé da página -->
+            <h1>
+                Sorteio Mega-Sena
+            </h1>
+            <p>
+                <span>
+                    Dicas de Loterias
+                </span>
+            </p>
+            <div>
+                <a href="#banner">Banner</a>
+                <a href="#numeros">Numeros</a>
+                <a href="#rodape">Rodapé</a>
+                <a href="index.html"> Palpiteiro</a>
+            </div>  
+        </div>
+    </header>
+    <section>
+        <div id="banner" class="container-parallax-sorteio">
+            <h1>Mega-Sena</h1>
+            <p>A probabilidade de ganhar na Mega-Sena varia de acordo com o número de dezenas jogadas e do tipo de aposta realizada, segundo a Caixa Econômica Federal.<br>
+                Com a aposta mínima, com seis dezenas ao custo de R$ 4,50, a chance é de uma em 50 milhões.<br>
+                Lembre-se que a Mega-Sena é um jogo de sorte e não há garantia de vitória. Por isso, jogue com responsabilidade e moderação.</p>
+        </div>  
+    </section>
+    <section>
+        <script src="./javascript/palpiteiro.js"></script>
+        <div id="numeros" class="container-sorteio">
+                <div class="card-sorteio card-um">
+                    <h2>Número Um</h2>
+                    <span id="numeroUm" class="dezena"></span>
+                    <button type="button" onclick="palpiteUmMega()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Dois</h2>
+                    <span id="numeroDois" class="dezena"></span>
+                    <button type="button" onclick="palpiteDoisMega()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Três</h2>
+                    <span id="numeroTres" class="dezena"></span>
+                    <button type="button" onclick="palpiteTresMega()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-um">
+                    <h2>Número Quatro</h2>
+                    <span id="numeroQuatro" class="dezena"></span>
+                    <button type="button" onclick="palpiteQuatroMega()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-dois">
+                    <h2>Número Cinco</h2>
+                    <span id="numeroCinco" class="dezena"></span>
+                    <button type="button" onclick="palpiteCincoMega()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-tres">
+                    <h2>Número Seis</h2>
+                    <span id="numeroSeis" class="dezena"></span>
+                    <button type="button" onclick="palpiteSeisMega()">Trocar Número</button>
+                </div>
+                <div class="card-sorteio card-todos">
+                    <h2>Nova Sequencia</h2>
+                    <button type="button" onclick="palpiteInicialMega()">Nova Sorte</button>
+                </div>
+                <script>palpiteInicialMega();</script>
+        </div>
+    </section>
+    <section>
+        <div id="banner" class="container-parallax-sorteio">
+            <h1>Mega-Sena</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Números jogados</th>
+                        <th>Gastos em R$</th>
+                        <th>Probabilidade de acerto na sena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6</td>
+                        <td>4,50</td>
+                        <td>1 em 50.063.860</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>31,50</td>
+                        <td>1 em 7.151.980</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>126</td>
+                        <td>1 em 1.787.995</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>378</td>
+                        <td>1 em 595.998</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <footer>
+        <div id="rodape" class="container-rodape"> <!-- Rodapé da página -->
+            <p>&copy; Palpiteiro - Todos os direitos reservados</p>
+            <p>Desenvolvido por <span>"Isaias - ihbrazil"</span></p>
+            <a href="#banner"></a>
+        </div> 
+    </footer>   
+</body>
+</html>
