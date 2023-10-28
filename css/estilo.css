@@ -154,6 +154,16 @@
     text-align: center;
 }
 
+.container-parallax2 table tbody tr:nth-of-type(odd) {
+    background-color: #5700cb;
+    color: #fff;
+}
+
+.container-parallax2 table tbody tr:nth-of-type(even) {
+    background-color: #9154e3;
+    color: #fff;
+}
+
 /*FlexBox*/
 
 .container {
