@@ -7,142 +7,147 @@
     <title>Palpiteiro</title>
     <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 </head>
-
 <body>
-    <div class="topo"> <!-- Rodapé da página -->
-        <h1>Palpiteiro</h1>
-        <p><span>Dicas de Loterias</span></p>
-        <div>
-            <a href="#banner">Banner</a>
-            <a href="#probabilidade">Probablilidade</a>
-            <a href="#numeros">Numeros</a>
-            <a href="#rodape">Rodapé</a>
-            </div>
-        </div>  
-    </div>
-    
-    <div id="banner" class="container-parallax1">
-       <h1>Loterias</h1>
-       <p>A Caixa Econômica Federal tem 11 opções de loterias. São elas:</p>
-       <ul> 
-          <li>Mega-Sena</li>
-          <li>Lotofácil</li>
-          <li>Quina</li>
-          <li>Lotomania</li>
-          <li>Timemania</li>
-          <li>Dupla Sena</li>
-          <li>Loteca</li>
-          <li>Lotogol</li>
-          <li>Dia de Sorte</li>
-          <li>Super Sete</li>
-          <li>Federal</li>
-      </ul>
-    </div>
-
-    <div id="probabilidade" class="container-parallax2">
-        <h3>Dias de Loterias</h3>
-        <table>   
-          <tr>
-              <th>Loteria</th>
-              <th>Dias de Sorteio</th>
-              <th>Horário do Sorteio</th>
-          </tr>
-          <tr>
-              <td>Lotofácil</td>
-              <td>Segundas, quartas e sextas</td>
-              <td>20 horas</td>
-          </tr>
-          <tr>
-              <td>Federal</td>
-              <td>Quartas e sábados</td>
-              <td>19 horas</td>
-          </tr>
-          <tr>
-              <td>Lotomania</td>
-              <td>Terças e Sextas</td>
-              <td>20 horas</td>
-          </tr>
-          <tr>
-              <td>Quina</td>
-              <td>Segunda à sábado</td>
-              <td>20 horas</td>
-          </tr>
-          <tr>
-              <td>Dupla Sena</td>
-              <td>Terças, quintas e sábados</td>
-              <td>20 horas</td>
-          </tr>
-          <tr>
-              <td>Mega-Sena</td>
-              <td>Quartas e sábados</td>
-              <td>20 horas</td>
-          </tr>
-          <tr>
-              <td>Timemania</td>
-              <td>Terças, quintas e sábados</td>
-              <td>20 horas</td>
-          </tr>
-          <tr>
-              <td>Dia de Sorte</td>
-              <td>Terças, quintas e sábados</td>
-              <td>20 horas</td>
-          </tr>
-          <tr>
-              <td>Loteca</td>
-              <td>Segundas</td>
-              <td>14 horas</td>
-          </tr>
-  </table>
-    </div>
-    
-    <div id="numeros" class="container-parallax3"> <!-- Seção Números - Lista da página -->
-
-    <h2>NÚMEROS DA SORTE</h2>
-
-    <div class="container">
-        <div class="card">
-          <div class="container-imagem">
-            <img src="assets/mega-sena.jpeg" />
-          </div>
-          <div class="container-info">
-            <h3>Sorteio Mega-Sena</h3>
-            <p>
-              Mega-Sena é a loteria mais popular do Brasil e é sorteada duas vezes por semana, às quartas-feiras e aos sábados. Para jogar, você precisa escolher seis números entre 1 e 60...
-            </p>
-            <a href="sorteio-mega-sena.html">Sorteio Mega-Sena</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="container-imagem">
-            <img src="assets/quina-bilhete-696x392.jpg" />
-          </div>
-          <div class="container-info">
-            <h3>Sorteio Quina</h3>
-            <p>
-              Para jogar, você deve escolher de 5 a 15 números dentre os 80 disponíveis no volante. Os prêmios são distribuídos para quem acerta 2, 3, 4 ou 5 números...
-            </p>
-            <a href="sorteio-quina.html">Sorteio Quina</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="container-imagem">
-            <img src="assets/lotofacil-696x392.jpeg" />
-          </div>
-          <div class="container-info">
-            <h3>Sorteio Lotofácil</h3>
-            <p>
-              Para jogar, você precisa decidir se quer fazer um, dois ou três jogos. Além disso, também é necessário saber com quantas dezenas deseja apostar. Na Lotofácil é possível escolher de 15 a 20 dezenas...
-            </p>
-            <a href="sorteio-lotofacil.html">Sorteio LotoFácil</a>
-          </div>
-        </div>
+    <header>
+      <div class="topo"> <!-- Rodapé da página -->
+          <h1>Palpiteiro</h1>
+          <p><span>Dicas de Loterias</span></p>
+          <nav>
+              <div>
+                  <a href="#banner">Banner</a>
+                  <a href="#probabilidade">Probablilidade</a>
+                  <a href="#numeros">Numeros</a>
+                  <a href="#rodape">Rodapé</a>
+                  </div>
+              </div>
+          </nav>  
       </div>
-  </div>
-  
-  <div id="rodape" class="container-rodape"> <!-- Rodapé da página -->
-    <p>&copy; Palpiteiro - Todos os direitos reservados</p>
-    <p>Desenvolvido por <span>"Isaias - ihbrazil"</span></p>
-    <a href="#banner"></a>
-  </div>    
+    </header>
+    <section id="banner">
+      <div class="container-parallax1">
+        <h1>Loterias</h1>
+        <p>A Caixa Econômica Federal tem 11 opções de loterias. São elas:</p>
+        <ul> 
+            <li>Mega-Sena</li>
+            <li>Lotofácil</li>
+            <li>Quina</li>
+            <li>Lotomania</li>
+            <li>Timemania</li>
+            <li>Dupla Sena</li>
+            <li>Loteca</li>
+            <li>Lotogol</li>
+            <li>Dia de Sorte</li>
+            <li>Super Sete</li>
+            <li>Federal</li>
+        </ul>
+      </div>
+    </section>
+    <section id="probabilidade">
+        <div class="container-parallax2">
+            <h3>Dias de Loterias</h3>
+            <table>   
+              <tr>
+                  <th>Loteria</th>
+                  <th>Dias de Sorteio</th>
+                  <th>Horário do Sorteio</th>
+              </tr>
+              <tr>
+                  <td>Lotofácil</td>
+                  <td>Segundas, quartas e sextas</td>
+                  <td>20 horas</td>
+              </tr>
+              <tr>
+                  <td>Federal</td>
+                  <td>Quartas e sábados</td>
+                  <td>19 horas</td>
+              </tr>
+              <tr>
+                  <td>Lotomania</td>
+                  <td>Terças e Sextas</td>
+                  <td>20 horas</td>
+              </tr>
+              <tr>
+                  <td>Quina</td>
+                  <td>Segunda à sábado</td>
+                  <td>20 horas</td>
+              </tr>
+              <tr>
+                  <td>Dupla Sena</td>
+                  <td>Terças, quintas e sábados</td>
+                  <td>20 horas</td>
+              </tr>
+              <tr>
+                  <td>Mega-Sena</td>
+                  <td>Quartas e sábados</td>
+                  <td>20 horas</td>
+              </tr>
+              <tr>
+                  <td>Timemania</td>
+                  <td>Terças, quintas e sábados</td>
+                  <td>20 horas</td>
+              </tr>
+              <tr>
+                  <td>Dia de Sorte</td>
+                  <td>Terças, quintas e sábados</td>
+                  <td>20 horas</td>
+              </tr>
+              <tr>
+                  <td>Loteca</td>
+                  <td>Segundas</td>
+                  <td>14 horas</td>
+              </tr>
+            </table>
+        </div>
+    </section>
+    <section id="numeros">
+        <div class="container-parallax3"> <!-- Seção Números - Lista da página -->
+            <h2>NÚMEROS DA SORTE</h2>
+            <div class="container">
+                <div class="card">
+                    <div class="container-imagem">
+                      <img src="assets/mega-sena.jpeg" />
+                    </div>
+                    <div class="container-info">
+                      <h3>Sorteio Mega-Sena</h3>
+                      <p>
+                        Mega-Sena é a loteria mais popular do Brasil e é sorteada duas vezes por semana, às quartas-feiras e aos sábados. Para jogar, você precisa escolher seis números entre 1 e 60...
+                      </p>
+                      <a href="sorteio-mega-sena.html">Sorteio Mega-Sena</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="container-imagem">
+                      <img src="assets/quina-bilhete-696x392.jpg" />
+                    </div>
+                    <div class="container-info">
+                      <h3>Sorteio Quina</h3>
+                      <p>
+                        Para jogar, você deve escolher de 5 a 15 números dentre os 80 disponíveis no volante. Os prêmios são distribuídos para quem acerta 2, 3, 4 ou 5 números...
+                      </p>
+                      <a href="sorteio-quina.html">Sorteio Quina</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="container-imagem">
+                      <img src="assets/lotofacil-696x392.jpeg" />
+                    </div>
+                    <div class="container-info">
+                      <h3>Sorteio Lotofácil</h3>
+                      <p>
+                        Para jogar, você precisa decidir se quer fazer um, dois ou três jogos. Além disso, também é necessário saber com quantas dezenas deseja apostar. Na Lotofácil é possível escolher de 15 a 20 dezenas...
+                      </p>
+                      <a href="sorteio-lotofacil.html">Sorteio LotoFácil</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <footer id="rodape">
+        <div class="container-rodape"> <!-- Rodapé da página -->
+          <p>&copy; Palpiteiro - Todos os direitos reservados</p>
+          <p>Desenvolvido por <span>"Isaias - ihbrazil"</span></p>
+          <a href="#banner"></a>
+        </div>
+    </footer>    
 </body>
 </html>
